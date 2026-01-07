@@ -1,10 +1,10 @@
-# Twitter (X) Data Scraper by Bright Data
+# Bright Data의 Twitter (X) Data Scraper
 
-[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/products/web-scraper/twitter)
+[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/products/web-scraper/twitter)
 
-This repository provides two distinct methods for collecting Twitter data:
-1. **Free Twitter Scraper**: For small-scale projects and learning
-2. [**Enterprise Twitter Scraper API**](https://brightdata.com/products/web-scraper/twitter): For production-grade data extraction
+이 리포지토리는 Twitter 데이터를 수집하기 위한 두 가지 상이한 방법을 제공합니다:
+1. **무료 Twitter Scraper**: 소규모 프로젝트 및 학습용
+2. [**Enterprise Twitter Scraper API**](https://brightdata.co.kr/products/web-scraper/twitter): 프로덕션급 데이터 추출용
 
 ## Table of Contents
 1. [Free Twitter Scraper](#free-twitter-scraper)
@@ -23,15 +23,15 @@ This repository provides two distinct methods for collecting Twitter data:
 
 
 ## Free Twitter Scraper
-Ideal for small-scale projects, experiments, and learning purposes.
+소규모 프로젝트, 실험, 학습 목적에 이상적입니다.
 
 ### 1. Profile Scraping
-Extracts public profile data from Twitter, including names, followers, tweet counts, and more.
+이름, 팔로워 수, 트윗 수 등 Twitter의 공개 프로필 데이터를 추출합니다.
 
 #### Input Requirements:
 | Parameter  | Type  | Required | Description                          |
 |------------|-------|----------|--------------------------------------|
-| usernames  | list  | Yes      | List of Twitter handles to scrape   |
+| usernames  | list  | Yes      | 스크레이핑할 Twitter 핸들의 목록입니다   |
 
 #### Implementation:
 ```python
@@ -47,13 +47,13 @@ usernames = [
 <img width="700" alt="twitter_profiles_data" src="https://github.com/luminati-io/twitter-scraper/blob/main/Images/408877618-450d920a-4760-463b-9670-8ac1264b6409.png" />
 
 ### 2. Post Scraping
-Collect engagement metrics for specific tweets
+특정 트윗에 대한 참여(engagement) 지표를 수집합니다.
 
 #### Input Requirements:
 
 | Parameter  | Type  | Required | Description                        |
 |------------|-------|----------|------------------------------------|
-| tweet_ids  | list  | Yes      | List of Twitter post IDs to scrape |
+| tweet_ids  | list  | Yes      | 스크레이핑할 Twitter 게시물 ID 목록입니다 |
 
 #### Implementation:
 ```python
@@ -80,35 +80,35 @@ TWEET_IDS = [
 ```
 
 ### Limitations
-The free method is not recommended for large-scale scraping due to Twitter’s strict anti-bot protections. Some key limitations include:
-- **Rate Limiting:** Twitter blocks requests after a few scrapes.
-- **IP Blocking:** Frequent scraping from the same IP can lead to bans.
-- **Limited Scalability:** Not suitable for high-volume data collection.
-- **Restricted Data Fields:** Only provides basic profile and tweet data, with no advanced filtering options.
+무료 방식은 Twitter의 엄격한 앤チ봇(anti-bot) 보호로 인해 대규모 スクレイピング에는 권장되지 않습니다. 주요 제한 사항은 다음과 같습니다:
+- **レート制限:** 몇 번 スクレイピング한 후 Twitter가 リクエスト를 차단합니다.
+- **IPアドレス 차단:** 동일한 IP에서 빈번히 スクレイピング하면 차단(밴)될 수 있습니다.
+- **제한된 확장성:** 대용량 데이터 수집에 적합하지 않습니다.
+- **제한된 데이터 필드:** 기본 프로필 및 트윗 데이터만 제공하며, 고급 필터링 옵션은 제공되지 않습니다.
 
 ## Twitter Scraper API
-A robust, scalable, and reliable solution for large-scale Twitter data extraction. Designed for businesses and developers who need high-quality, real-time data without infrastructure headaches.
+대규모 Twitter 데이터 추출을 위한 강력하고 확장 가능하며 신뢰할 수 있는 솔루션입니다. 인프라 부담 없이 고품질의 실시간 데이터가 필요한 기업 및 개발자를 위해 설계되었습니다.
 
 ### Key Features
-- **Scalable & Reliable:** Optimized for high-volume and real-time data collection
-- **Anti-Blocking:** Built-in [proxy rotation](https://brightdata.com/solutions/rotating-proxies) and [CAPTCHA solving](https://brightdata.com/products/web-unlocker/captcha-solver)
-- **Legal Compliance:** Fully GDPR and CCPA compliant
-- **Global Coverage:** Access data from any region or language
-- **Real-Time Data:** Fresh data with minimal latency
-- **Advanced Filtering:** Customize data extraction with precise filters
-- **Pay-as-You-Go:** Only pay for successful responses
-- **Free Trial:** Includes 20 free API calls to get started
-- **Dedicated Support:** 24/7 technical assistance
+- **확장 가능 & 신뢰성:** 대용량 및 실시간 데이터 수집에 최적화되어 있습니다.
+- **차단 방지:** 내장된 [プロキシ 로ーテ이션](https://brightdata.co.kr/solutions/rotating-proxies) 및 [CAPTCHA 해결](https://brightdata.co.kr/products/web-unlocker/captcha-solver)
+- **법적 준수:** GDPR 및 CCPA를 완전히 준수합니다.
+- **글로벌 커버리지:** 어떤 지역 또는 언어의 데이터에도 접근할 수 있습니다.
+- **실시간 데이터:** 최소한의 지연으로 최신 데이터를 제공합니다.
+- **고급 필터링:** 정밀한 필터로 데이터 추출을 사용자 지정할 수 있습니다.
+- **종량제(Pay-as-You-Go):** 성공한 レスポンス에 대해서만 비용을 지불합니다.
+- **무료 체험:** 시작을 위한 무료 API 호출 20회를 포함합니다.
+- **전담 지원:** 24/7 기술 지원을 제공합니다.
 
-👉 **Learn more:** [Bright Data Twitter Scraper API](https://brightdata.com/products/web-scraper/twitter)
+👉 **자세히 알아보기:** [Bright Data Twitter Scraper API](https://brightdata.co.kr/products/web-scraper/twitter)
 
 ### Quick Start Guide
-- **Sign Up:** Create a [Bright Data account](https://brightdata.com/)
-- **Get API Token:** Obtain your [API key](https://docs.brightdata.com/general/account/api-token) from the dashboard
-- **Choose Endpoint:** Select from the available API endpoints below
+- **가입:** [Bright Data 계정](https://brightdata.co.kr/)을 생성합니다.
+- **API Token 받기:** 대시보드에서 [API key](https://docs.brightdata.com/general/account/api-token)를 발급받습니다.
+- **엔드포인트 선택:** 아래에서 제공되는 API 엔드포인트 중 하나를 선택합니다.
 
 ### 1. Scrape Posts by URL
-Extract detailed engagement metrics and content for specific tweets using their URLs.
+URL을 사용하여 특정 트윗에 대한 상세 참여 지표 및 콘텐츠를 추출합니다.
 
 <img width="700" alt="twitter-posts-scraper" src="https://github.com/luminati-io/twitter-scraper/blob/main/Images/409213804-9d07a475-2e3b-45fc-ae8e-ebcd7cef367b.png" />
 
@@ -116,7 +116,7 @@ Extract detailed engagement metrics and content for specific tweets using their 
 #### Request Parameters:
 | Field | Type   | Required | Description            |
 |-------|--------|----------|------------------------|
-| `url`   | string | Yes      | Full Twitter post URL |
+| `url`   | string | Yes      | 전체 Twitter 게시물 URL입니다 |
 
 #### Example Request:
 ```python
@@ -153,10 +153,10 @@ posts = [
     }
 }
 ```
-👉 Only key fields are shown here. See the [full JSON response](https://github.com/luminati-io/Twitter-Scraper/blob/main/twitter_data/twitter_posts.json) for all details. Try our dedicated [Twitter Posts Scraper](https://brightdata.com/products/web-scraper/twitter/posts) now.
+👉 여기에는 핵심 필드만 표시되어 있습니다. 모든 세부 사항은 [full JSON response](https://github.com/luminati-io/Twitter-Scraper/blob/main/twitter_data/twitter_posts.json)를 확인하시기 바랍니다. 지금 전용 [Twitter Posts Scraper](https://brightdata.co.kr/products/web-scraper/twitter/posts)를 사용해 보시기 바랍니다.
 
 ### 2. Scrape Profile Data
-Extract comprehensive profile information, including recent posts and engagement metrics.
+최근 게시물과 참여 지표를 포함하여 포괄적인 프로필 정보를 추출합니다.
 
 <img width="600" alt="twitter-profile-scraper" src="https://github.com/luminati-io/twitter-scraper/blob/main/Images/409214197-3b3e2f0f-30bc-45d9-b9bc-13358b22a55a.png" />
 
@@ -164,8 +164,8 @@ Extract comprehensive profile information, including recent posts and engagement
 
 | Field      | Type   | Required | Description                     |
 |------------|--------|----------|---------------------------------|
-| `url`        | string | Yes      | Twitter profile URL       |
-| `max_number_of_posts`  | number | No       | Number of recent posts to retrieve |
+| `url`        | string | Yes      | Twitter 프로필 URL입니다       |
+| `max_number_of_posts`  | number | No       | 가져올 최근 게시물 수입니다 |
 
 #### Example Request:
 ```python
@@ -215,18 +215,18 @@ profiles = [
     ],
 }
 ```
-👉 Only key fields are shown here. See the [full JSON response](https://github.com/luminati-io/Twitter-Scraper/blob/main/twitter_data/twitter_profile_posts.json) for all details. Try our dedicated [Twitter Profile Scraper](https://brightdata.com/products/web-scraper/twitter/profile) now. 
+👉 여기에는 핵심 필드만 표시되어 있습니다. 모든 세부 사항은 [full JSON response](https://github.com/luminati-io/Twitter-Scraper/blob/main/twitter_data/twitter_profile_posts.json)를 확인하시기 바랍니다. 지금 전용 [Twitter Profile Scraper](https://brightdata.co.kr/products/web-scraper/twitter/profile)를 사용해 보시기 바랍니다. 
 
 ### 3. Date-Range Tweet Collection
-Retrieve posts within a specific date range.
+특정 날짜 범위 내의 게시물을 가져옵니다.
 
 #### Request Parameters:
 
 | Parameter  | Type   | Required | Description                   |
 |------------|--------|----------|-------------------------------|
-| `url`        | string | Yes      | Twitter Profile URL          |
-| `start_date` | string | Yes      | Start date (ISO format)       |
-| `end_date`   | string | Yes      | End date (ISO format)         |
+| `url`        | string | Yes      | Twitter 프로필 URL입니다          |
+| `start_date` | string | Yes      | 시작 날짜(ISO 형식)입니다       |
+| `end_date`   | string | Yes      | 종료 날짜(ISO 형식)입니다         |
 
 
 #### Example Request:
@@ -274,37 +274,37 @@ profiles = [
     }
 }
 ```
-👉 Only key fields are shown here. See the [full JSON response](https://github.com/luminati-io/Twitter-Scraper/blob/main/twitter_data/twitter_date_range_posts.json) for all details.
+👉 여기에는 핵심 필드만 표시되어 있습니다. 모든 세부 사항은 [full JSON response](https://github.com/luminati-io/Twitter-Scraper/blob/main/twitter_data/twitter_date_range_posts.json)를 확인하시기 바랍니다.
 
 ## No-Code Scraper Option
-For users preferring a graphical interface, we offer a no-code solution through our control panel:
+그래픽 인터페이스를 선호하는 사용자를 위해, 컨트롤 패널을 통해 노코드 솔루션을 제공합니다:
 
-- Configure scrapers in minutes
-- Automates the entire data collection process
-- Direct result download (multiple formats)
+- 몇 분 안에 스크레이퍼를 구성할 수 있습니다.
+- 전체 데이터 수집 프로세스를 자동화합니다.
+- 결과를 직접 다운로드할 수 있습니다(다양한 형식 지원).
 
-For detailed instructions on using the no-code scraper, please visit our [Getting Started guide](https://github.com/luminati-io/Twitter-Scraper/blob/main/no-code-scraper.md).
+노코드 스크레이퍼 사용에 대한 자세한 안내는 [Getting Started guide](https://github.com/luminati-io/Twitter-Scraper/blob/main/no-code-scraper.md)를 방문하시기 바랍니다.
 
 
 ## Data Collection Approaches
-You can use the following parameters to fine-tune your results:
+다음 パラメータ를 사용하여 결과를 세밀하게 조정할 수 있습니다:
 | **Parameter**       | **Type**   | **Description**                                            | **Example**                  |
 |---------------------|------------|------------------------------------------------------------|------------------------------|
-| `limit`             | `integer`  | Max results per input                                   | `limit=10`                   |
-| `include_errors`    | `boolean`  | Get error reports for troubleshooting                     | `include_errors=true`        |
-| `notify`            | `url`      | Webhook notification URL to be notified upon completion  | `notify=https://notify-me.com/` |
-| `format`            | `enum`     | Output format (e.g., JSON, NDJSON, JSONL, CSV)         | `format=json`                |
+| `limit`             | `integer`  | 입력당 최대 결과 수                                   | `limit=10`                   |
+| `include_errors`    | `boolean`  | 문제 해결을 위한 오류 리포트를 가져옵니다                     | `include_errors=true`        |
+| `notify`            | `url`      | 완료 시 알림을 받을 Webhook 알림 URL입니다  | `notify=https://notify-me.com/` |
+| `format`            | `enum`     | 출력 형식(예: JSON, NDJSON, JSONL, CSV)         | `format=json`                |
 
-💡 **Pro Tip:** You can also select whether to deliver the data to an [external storage](https://docs.brightdata.com/scraping-automation/web-data-apis/web-scraper-api/overview#via-deliver-to-external-storage) or to deliver it to a [webhook](https://docs.brightdata.com/scraping-automation/web-data-apis/web-scraper-api/overview#via-webhook).
+💡 **Pro Tip:** 데이터를 [external storage](https://docs.brightdata.com/scraping-automation/web-data-apis/web-scraper-api/overview#via-deliver-to-external-storage)로 전달할지 또는 [webhook](https://docs.brightdata.com/scraping-automation/web-data-apis/web-scraper-api/overview#via-webhook)으로 전달할지도 선택할 수 있습니다.
 
 ## Support & Resources
 - **API Documentation:** [Bright Data Docs](https://docs.brightdata.com/scraping-automation/web-scraper-api/trigger-a-collection)
-- **Scraping Best Practices:** [Avoid Getting Blocked](https://brightdata.com/blog/web-data/web-scraping-without-getting-blocked)
-- **Technical Support:** [Contact Us](mailto:support@brightdata.com)
+- **스크레이핑 모범 사례:** [차단을 피하는 방법](https://brightdata.co.kr/blog/web-data/web-scraping-without-getting-blocked)
+- **기술 지원:** [Contact Us](mailto:support@brightdata.com)
 
 ---
 
-**Interested in other scrapers? Check out the list below:**
+**다른 스크레이퍼에도 관심이 있으신가요? 아래 목록을 확인하시기 바랍니다:**
 
 - [LinkedIn Scraper](https://github.com/luminati-io/LinkedIn-Scraper)
 - [Google News Scraper](https://github.com/luminati-io/Google-News-Scraper)
