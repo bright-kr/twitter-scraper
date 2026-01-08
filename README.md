@@ -1,6 +1,6 @@
 # Bright Data의 Twitter (X) Data Scraper
 
-[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/products/web-scraper/twitter)
+[![Promo](https://github.com/bright-kr/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/products/web-scraper/twitter)
 
 이 리포지토리는 Twitter 데이터를 수집하기 위한 두 가지 상이한 방법을 제공합니다:
 1. **무료 Twitter Scraper**: 소규모 프로젝트 및 학습용
@@ -44,7 +44,7 @@ usernames = [
 ```
 
 #### Sample Output (CSV):
-<img width="700" alt="twitter_profiles_data" src="https://github.com/luminati-io/twitter-scraper/blob/main/Images/408877618-450d920a-4760-463b-9670-8ac1264b6409.png" />
+<img width="700" alt="twitter_profiles_data" src="https://github.com/bright-kr/twitter-scraper/blob/main/Images/408877618-450d920a-4760-463b-9670-8ac1264b6409.png" />
 
 ### 2. Post Scraping
 특정 트윗에 대한 참여(engagement) 지표를 수집합니다.
@@ -110,7 +110,7 @@ TWEET_IDS = [
 ### 1. Scrape Posts by URL
 URL을 사용하여 특정 트윗에 대한 상세 참여 지표 및 콘텐츠를 추출합니다.
 
-<img width="700" alt="twitter-posts-scraper" src="https://github.com/luminati-io/twitter-scraper/blob/main/Images/409213804-9d07a475-2e3b-45fc-ae8e-ebcd7cef367b.png" />
+<img width="700" alt="twitter-posts-scraper" src="https://github.com/bright-kr/twitter-scraper/blob/main/Images/409213804-9d07a475-2e3b-45fc-ae8e-ebcd7cef367b.png" />
 
 
 #### Request Parameters:
@@ -153,12 +153,12 @@ posts = [
     }
 }
 ```
-👉 여기에는 핵심 필드만 표시되어 있습니다. 모든 세부 사항은 [full JSON response](https://github.com/luminati-io/Twitter-Scraper/blob/main/twitter_data/twitter_posts.json)를 확인하시기 바랍니다. 지금 전용 [Twitter Posts Scraper](https://brightdata.co.kr/products/web-scraper/twitter/posts)를 사용해 보시기 바랍니다.
+👉 여기에는 핵심 필드만 표시되어 있습니다. 모든 세부 사항은 [full JSON response](https://github.com/bright-kr/Twitter-Scraper/blob/main/twitter_data/twitter_posts.json)를 확인하시기 바랍니다. 지금 전용 [Twitter Posts Scraper](https://brightdata.co.kr/products/web-scraper/twitter/posts)를 사용해 보시기 바랍니다.
 
 ### 2. Scrape Profile Data
 최근 게시물과 참여 지표를 포함하여 포괄적인 프로필 정보를 추출합니다.
 
-<img width="600" alt="twitter-profile-scraper" src="https://github.com/luminati-io/twitter-scraper/blob/main/Images/409214197-3b3e2f0f-30bc-45d9-b9bc-13358b22a55a.png" />
+<img width="600" alt="twitter-profile-scraper" src="https://github.com/bright-kr/twitter-scraper/blob/main/Images/409214197-3b3e2f0f-30bc-45d9-b9bc-13358b22a55a.png" />
 
 #### Request Parameters:
 
@@ -215,7 +215,7 @@ profiles = [
     ],
 }
 ```
-👉 여기에는 핵심 필드만 표시되어 있습니다. 모든 세부 사항은 [full JSON response](https://github.com/luminati-io/Twitter-Scraper/blob/main/twitter_data/twitter_profile_posts.json)를 확인하시기 바랍니다. 지금 전용 [Twitter Profile Scraper](https://brightdata.co.kr/products/web-scraper/twitter/profile)를 사용해 보시기 바랍니다. 
+👉 여기에는 핵심 필드만 표시되어 있습니다. 모든 세부 사항은 [full JSON response](https://github.com/bright-kr/Twitter-Scraper/blob/main/twitter_data/twitter_profile_posts.json)를 확인하시기 바랍니다. 지금 전용 [Twitter Profile Scraper](https://brightdata.co.kr/products/web-scraper/twitter/profile)를 사용해 보시기 바랍니다. 
 
 ### 3. Date-Range Tweet Collection
 특정 날짜 범위 내의 게시물을 가져옵니다.
@@ -274,7 +274,7 @@ profiles = [
     }
 }
 ```
-👉 여기에는 핵심 필드만 표시되어 있습니다. 모든 세부 사항은 [full JSON response](https://github.com/luminati-io/Twitter-Scraper/blob/main/twitter_data/twitter_date_range_posts.json)를 확인하시기 바랍니다.
+👉 여기에는 핵심 필드만 표시되어 있습니다. 모든 세부 사항은 [full JSON response](https://github.com/bright-kr/Twitter-Scraper/blob/main/twitter_data/twitter_date_range_posts.json)를 확인하시기 바랍니다.
 
 ## No-Code Scraper Option
 그래픽 인터페이스를 선호하는 사용자를 위해, 컨트롤 패널을 통해 노코드 솔루션을 제공합니다:
@@ -283,7 +283,7 @@ profiles = [
 - 전체 데이터 수집 프로세스를 자동화합니다.
 - 결과를 직접 다운로드할 수 있습니다(다양한 형식 지원).
 
-노코드 스크레이퍼 사용에 대한 자세한 안내는 [Getting Started guide](https://github.com/luminati-io/Twitter-Scraper/blob/main/no-code-scraper.md)를 방문하시기 바랍니다.
+노코드 스크레이퍼 사용에 대한 자세한 안내는 [Getting Started guide](https://github.com/bright-kr/Twitter-Scraper/blob/main/no-code-scraper.md)를 방문하시기 바랍니다.
 
 
 ## Data Collection Approaches
@@ -306,7 +306,7 @@ profiles = [
 
 **다른 스크레이퍼에도 관심이 있으신가요? 아래 목록을 확인하시기 바랍니다:**
 
-- [LinkedIn Scraper](https://github.com/luminati-io/LinkedIn-Scraper)
-- [Google News Scraper](https://github.com/luminati-io/Google-News-Scraper)
-- [Google Maps Scraper](https://github.com/luminati-io/Google-Maps-Scraper)
-- [Amazon Scraper](https://github.com/luminati-io/Amazon-scraper)
+- [LinkedIn Scraper](https://github.com/bright-kr/LinkedIn-Scraper)
+- [Google News Scraper](https://github.com/bright-kr/Google-News-Scraper)
+- [Google Maps Scraper](https://github.com/bright-kr/Google-Maps-Scraper)
+- [Amazon Scraper](https://github.com/bright-kr/Amazon-scraper)
