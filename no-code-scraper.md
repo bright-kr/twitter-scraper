@@ -1,4 +1,4 @@
-Twitter 데이터를 손쉽고 코드 없이 スクレイピング하려면, 다음의 간단한 단계에 따라 Bright Data의 No-Code Scraper를 사용하시면 됩니다:
+Twitter 데이터를 손쉽고 코드 없이 스크레이핑하려면, 다음의 간단한 단계에 따라 Bright Data의 No-Code Scraper를 사용하시면 됩니다:
 
 ### Step 1: Access the Scraper Marketplace
 1. "Web Scraper" 섹션으로 이동합니다
